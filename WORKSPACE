@@ -35,7 +35,7 @@ maven_install(
         "com.google.truth:truth:1.1.2",
     ],
     repositories = [
-        "https://repo1.maven.org/maven2",
         "https://oss.sonatype.org/content/repositories/snapshots/",
+        "https://repo1.maven.org/maven2",
     ],
 )
