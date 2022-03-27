@@ -29,6 +29,7 @@ maven_install(
     artifacts = [
         "com.google.guava:guava:31.0.1-jre",
         "com.google.inject:guice:5.0.1",
+        "io.fission:fission-java-core:0.0.2-SNAPSHOT",
         "org.ta4j:ta4j-core:0.14",
         "org.springframework.boot:spring-boot-starter-web:2.0.1.RELEASE",
         # Test Only Artifacts
