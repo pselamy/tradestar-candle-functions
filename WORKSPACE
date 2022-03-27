@@ -30,6 +30,7 @@ maven_install(
         "com.google.guava:guava:31.0.1-jre",
         "com.google.inject:guice:5.0.1",
         "org.ta4j:ta4j-core:0.14",
+        "org.springframework.boot:spring-boot-starter-web:2.0.1.RELEASE",
         # Test Only Artifacts
         "com.google.truth:truth:1.1.2",
     ],
