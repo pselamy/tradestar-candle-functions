@@ -5,7 +5,7 @@ FISSION_DEPS = [
 ]
 
 def fission_java_binary(name, srcs, main_class, deps = [], *args, **kwargs):
-    java_binary(
+    native.java_binary(
         name = name,
         srcs = srcs,
         main_class = main_class,

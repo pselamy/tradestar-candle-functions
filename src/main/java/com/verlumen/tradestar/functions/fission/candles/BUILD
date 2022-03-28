@@ -1,12 +1,8 @@
-FISSION_JVM_ENV = [
-    "@maven//:io_fission_fission_java_core",
-    "@maven//:org_springframework_boot_spring_boot_starter_web",
-    "@maven//:org_springframework_spring_web",
-]
+load("//:fission.bzl", "FISSION_DEPS")
 
 java_binary(
     name = "get_candles",
     srcs = ["GetCandles.java"],
     main_class = "com.verlumen.tradestar.functions.fission.candles.GetCandles",
-    deps = FISSION_JVM_ENV + [],
+    deps = FISSION_DEPS + [],
 )
