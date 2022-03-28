@@ -7,6 +7,6 @@ FISSION_JVM_ENV = [
 java_binary(
     name = "get_candles",
     srcs = ["GetCandles.java"],
-    main_class = "com.verlumen.tradestar.functions.candles.fission.GetCandles",
+    main_class = "com.verlumen.tradestar.functions.fission.candles.GetCandles",
     deps = FISSION_JVM_ENV + [],
 )

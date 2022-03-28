@@ -1,4 +1,4 @@
-package com.verlumen.tradestar.functions.candles.fission;
+package com.verlumen.tradestar.functions.fission.candles;
 
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
