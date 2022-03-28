@@ -1,4 +1,4 @@
-load("//:fission.bzl", "FISSION_DEPS")
+load("//src/main/java/com/verlumen/tradestar/functions/fission:fission.bzl", "FISSION_DEPS")
 
 java_binary(
     name = "get_candles",
