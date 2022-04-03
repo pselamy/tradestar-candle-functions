@@ -1,4 +1,4 @@
-workspace(name = "tradestar_candle_functions")
+workspace(name = "tradestar_functions")
 
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
